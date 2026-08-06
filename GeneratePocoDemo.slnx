@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Applications/">
+    <Project Path="Applications/GenerateApp/GenerateApp.csproj" Id="4b1b215c-0223-4092-bdef-2f0f46b4086f" />
+    <Project Path="Applications/NormalApp/NormalApp.csproj" Id="6b01def1-283c-4588-8a9d-c134a7619c3a" />
+  </Folder>
+  <Folder Name="/Domains/">
+    <Project Path="Domians/CommentModel‌s/CommentModel‌s.csproj" />
+    <Project Path="Domians/CommentServices/CommentServices.csproj" Id="1bc3cf8c-8365-46cc-b81e-920e77446954" />
+  </Folder>
+  <Folder Name="/Infrastructures/">
+    <Project Path="Infrastructure‌s/CommentPersistences/CommentPersistences.csproj" Id="339a5596-0dae-44e8-a24b-32821825cd4b" />
+  </Folder>
+</Solution>

@@ -1,0 +1,31 @@
+@GenerateApp_HostAddress = http://localhost:5117
+
+### create
+
+PUT {{GenerateApp_HostAddress}}/api/comments
+Accept: application/json
+Content-Type: application/json
+{
+    "Content": "This is a test comment."
+}
+
+### detail
+
+GET {{GenerateApp_HostAddress}}/api/comments/1
+Accept: application/json
+
+### list
+
+GET {{GenerateApp_HostAddress}}/api/comments
+Accept: application/json
+
+### update
+POST {{GenerateApp_HostAddress}}/api/comments/1
+Accept: application/json
+Content-Type: application/json
+{
+    "Content": "This is a updated comment."
+}
+
+### delete
+DELETE {{GenerateApp_HostAddress}}/api/comments/1

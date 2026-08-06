@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Hand.Core" Version="0.3.1.9-alpha" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommentModel‌s\CommentModel‌s.csproj" />
+  </ItemGroup>
+
+</Project>
