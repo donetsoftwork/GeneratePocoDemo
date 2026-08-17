@@ -11,7 +11,7 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="Hand.GeneratePoco" Version="0.2.1.4-alpha" />
+		<PackageReference Include="Hand.GeneratePoco" Version="0.2.1.9-alpha" />
 		<PackageReference Include="Hand.Generators.Attributes" Version="0.2.1.5" />
 	</ItemGroup>
 	<ItemGroup>

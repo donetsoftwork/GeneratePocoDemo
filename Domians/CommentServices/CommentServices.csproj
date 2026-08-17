@@ -7,7 +7,7 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Hand.Core" Version="0.3.1.9-alpha" />
+		<PackageReference Include="Hand.Core" Version="0.3.1.11-alpha" />
 	</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommentModel‌s\CommentModel‌s.csproj" />

@@ -10,4 +10,10 @@
   <Folder Name="/Infrastructures/">
     <Project Path="Infrastructure‌s/CommentPersistences/CommentPersistences.csproj" Id="339a5596-0dae-44e8-a24b-32821825cd4b" />
   </Folder>
+  <Folder Name="/解决方案项/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE.txt" />
+    <File Path="readme.md" />
+  </Folder>
 </Solution>

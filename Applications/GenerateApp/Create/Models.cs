@@ -1,8 +1,7 @@
 ﻿using CommentModels;
 using FastEndpoints;
-using GenerateApp.Update;
-using Hand.Entities;
 using FluentValidation;
+using Hand.Entities;
 
 namespace GenerateApp.Create;
 
@@ -12,7 +11,7 @@ public sealed class CreateRequest
     /// 评论内容
     /// </summary>
     public string Content { get; set; }
-    internal sealed class Validator : Validator<UpdateRequest>
+    internal sealed class Validator : Validator<CreateRequest>
     {
         public Validator()
         {
