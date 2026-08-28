@@ -28,13 +28,7 @@ public sealed class Endpoint(ICommentService service)
                 Message = "Comment not found"
             });
         }
-        return Task.FromResult(new DetailResponse
-        {
-            Id = comment.Id.Original,
-            Content = comment.Content.Original,
-            CreateTime = comment.CreateTime.Original,
-            UpdateTime = comment.UpdateTime.Original
-        });
+        return Task.FromResult(comment.ToDetailResponse("Success"));
     }
 }
 
